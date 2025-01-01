@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "updater"
+version = "0.1.0"
+description = ""
+authors = ["Ryuzvki <contact.stateless@gmail.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+schedule = "^1.2.1"
+logging = "^0.4.9.6"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

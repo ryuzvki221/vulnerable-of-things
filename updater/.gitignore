@@ -1,0 +1,24 @@
+# Logs #
+/logs
+*.log
+*.log*
+
+# Python files #
+.env
+.venv/
+src/_pycache_/
+
+
+
+
+# IDE #
+.idea/
+*.swp
+.awcache
+.vscode/
+
+
+# OS generated files #
+.DS_Store
+/**/.DS_Store
+Thumbs.db
